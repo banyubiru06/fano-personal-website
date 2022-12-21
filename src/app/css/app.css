@@ -403,89 +403,26 @@ Section Profile
 
 
 /*-------------------------------------------------------------------
-Section Activity
+Section Hobby
 ------------------------------------------------------------------- */
 
-.activity-nav a {
+.box-services > div {
+  margin-top: 0 !important;
+}
+
+.box-service {
+  padding: 30px 10px;
+}
+
+.box-service .uk-icon {
   display: block;
-  border: 1px solid #e5e5e5;
-  margin-bottom: 4px;
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  background: #1e87f0;
-  color: #fff;
+}
+
+.box-service h5 {
+  margin-top: 20px;
+  margin-bottom: 0;
   font-weight: 700;
-  transition: 0.3s;
-  padding-top: 3px;
-}
-
-.activity-nav a:hover {
-  background: #000;
-  color: #fff;
-}
-
-.activity-item-desc {
-  padding: 25px;
-  border: 1px solid #e5e5e5;
-  margin-bottom: 20px;
-  border-radius: 4px;
-  position: relative;
-}
-
-.activity-item-desc::before {
-  content: "";
-  position: absolute;
-  width: 24px;
-  height: 24px;
-  background: #1e87f0;
-  border-radius: 50%;
-  bottom: -14px;
-  left: 14px;
-  border: 3px solid #fff;
-}
-
-.activity-item-desc h4 {
-  font-weight: 700;
-  transition: 0.3s;
-}
-
-.activity-item-desc:hover h4 {
-  color: #1e87f0;
-}
-
-.activity-item-img {
-  position: relative;
-  margin-left: 20px;
-}
-
-.activity-item-img::before {
-  content: "";
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  background: #1e87f0;
-  border-radius: 50%;
-  top: -7px;
-  left: -10px;
-}
-
-.activity-item-img::after {
-  content: "";
-  position: absolute;
-  width: 5px;
-  height: 5px;
-  background: #1e87f0;
-  border-radius: 50%;
-  top: 10px;
-  left: -5px;
-}
-
-.activity-item-img img {
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
+  letter-spacing: -1px;
 }
 
 
