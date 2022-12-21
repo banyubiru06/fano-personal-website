@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Fano - Personal Website</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="src/img/favicon.png" />
+
+    <!-- css -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap"
+    />
+    <link rel="stylesheet" href="src/app/css/uikit-custom.min.css" />
+    <link rel="stylesheet" href="src/app/css/app.css" />
+  </head>
+
+  <body id="body-app" class="dark-skin uk-light">
+    <!-- page loader -->
+    <div id="pageloader" class="pageloader-wrapper">
+      <div class="uk-position-center uk-text-center">
+        <div data-uk-spinner></div>
+      </div>
+    </div>
+    <!-- end page loader -->
+    <!-- main header -->
+    <header class="main-header" id="main-header">
+      <!-- home section -->
+      <div class="full-height" id="home">
+        <section class="profile-desc">
+          <div class="section-point-wrapper" data-uk-parallax="opacity: 1, 0;">
+            <div class="uk-container">
+              <div class="section-point">
+                <!-- <sup>01</sup> -->
+                <span>welcome</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="uk-container uk-text-center profile-desc-wrap uk-position-relative"
+          >
+            <img src="src/img/x1.png" alt="" width="60" />
+            <h2 class="uk-text-bold">Halo, Saya</h2>
+            <h1 class="uk-text-bold gradient-text">
+              <span>Syifano</span> <span>Fazul</span> <span>Nabil</span>
+            </h1>
+            <div class="uk-text-bold typed-job">
+              Saya seorang <span id="typed" class="typed"></span>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- end home section -->
+
+      <!-- main menu -->
+      <nav class="main-menu" id="main-menu">
+        <div class="uk-container" data-uk-navbar>
+          <div class="uk-navbar-left">
+            <a class="logo uk-navbar-item uk-logo" href="dark-index.html"
+              ><span>Fano</span></a
+            >
+          </div>
+          <div class="uk-navbar-right uk-hidden@m">
+            <a class="uk-navbar-toggle" href="#" id="btn-menu-toggle">
+              <span data-uk-navbar-toggle-icon class="icon-menu"></span>
+              <span data-uk-icon="close" class="icon-close"></span>
+            </a>
+          </div>
+          <div class="menu-toggle-wrapper" id="menucollapse">
+            <div class="uk-navbar-center">
+              <ul
+                class="uk-navbar-nav"
+                data-uk-scrollspy-nav="closest: li; scroll: false; offset: 79 "
+              >
+                <li>
+                  <a class="inner-link" href="#home"> Home </a>
+                </li>
+                <li>
+                  <a class="inner-link" href="#data-diri"> Data Diri</a>
+                </li>
+                <li>
+                  <a class="inner-link" href="#pendidikan"> Pendidikan </a>
+                </li>
+                <li>
+                  <a class="inner-link" href="#kuliah"> Kuliah </a>
+                </li>
+                <li>
+                  <a class="inner-link" href="#aktivitas"> Aktivitas </a>
+                </li>
+              </ul>
+            </div>
+            <div class="uk-navbar-right">
+              <ul class="uk-navbar-nav social-icons">
+                <li>
+                  <a href="https://www.instagram.com/fazul_nabil/">
+                    <span class="uk-icon" data-uk-icon="icon: instagram"></span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- end main menu -->
+    </header>
+    <!-- end main header -->
+    <!-- main section -->
+    <main class="main-content">
+      <!-- Data Diri section -->
+      <section id="data-diri" class="section">
+        <div class="my-profile">
+          <div class="uk-container">
+            <div class="uk-grid-collapse uk-child-width-expand@m" data-uk-grid>
+              <div>
+                <div
+                  class="my-profile-img uk-background-cover uk-background-contain"
+                  data-src="src/img/profile.jpeg"
+                  data-uk-img
+                  data-uk-lightbox
+                ></div>
+              </div>
+              <div>
+                <div class="my-profile-desc">
+                  <div class="section-point-wrapper">
+                    <div class="section-point right">
+                      <!-- <sup>02</sup> -->
+                      <span>Data Diri</span>
+                    </div>
+                  </div>
+                  <div class="my-profile-desc-top">
+                    <h3 class="section-title">Nama</h3>
+                    <p>Syifano Fazul Nabil</p>
+                    <h3 class="section-title">Spesialis</h3>
+                    <h4 class="uk-badge" style="margin-top: 0px">
+                      <span>Web Developer</span>
+                    </h4>
+                    <h4 class="uk-badge" style="margin-top: 0px">
+                      <span>UI / UX Designer</span>
+                    </h4>
+                    <h3 class="section-title">Nama</h3>
+                    <p>
+                      Halo, Syifano Fazul Nabil, saya seorang Web Developer dan
+                      UI / UX Designer
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end Data Diri section -->
+      <!-- Riwayat Pendidikan section -->
+      <section class="section" id="pendidikan">
+        <div class="section-point-wrapper">
+          <div class="uk-container">
+            <div class="section-point">
+              <!-- <sup>03</sup> -->
+              <span>Pendidikan</span>
+            </div>
+          </div>
+        </div>
+        <div class="uk-container">
+          <div data-uk-grid class="uk-grid-divider">
+            <div class="uk-width-expand@s section-padding-top">
+              <div>
+                <h2 class="section-title uk-heading-line" id="education">
+                  <span>Formal</span>
+                </h2>
+                <div class="education-list">
+                  <ul class="uk-list uk-list-large uk-list-divider">
+                    <li>
+                      <div class="education-item">
+                        <div class="education-item-date">
+                          <div class="education-item-date-icon">
+                            <span data-uk-icon="calendar"></span>
+                          </div>
+                          <div class="education-item-date-text">
+                            <span>2022 - Now</span>
+                          </div>
+                        </div>
+                        <h4 class="section-title">
+                          Universitas Dian Nuswantoro
+                        </h4>
+                        <strong>Teknik Informatika</strong>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="education-item">
+                        <div class="education-item-date">
+                          <div class="education-item-date-icon">
+                            <span data-uk-icon="calendar"></span>
+                          </div>
+                          <div class="education-item-date-text">
+                            <span>Lulus tahun 2022</span>
+                          </div>
+                        </div>
+                        <h4 class="section-title">SMK Al-Irsyad Tegal</h4>
+                        <strong>Kota Tegal</strong>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="education-item">
+                        <div class="education-item-date">
+                          <div class="education-item-date-icon">
+                            <span data-uk-icon="calendar"></span>
+                          </div>
+                          <div class="education-item-date-text">
+                            <span>Lulus tahun 2019</span>
+                          </div>
+                        </div>
+                        <h4 class="section-title">
+                          SMP IT Harapan Ummat Brebes
+                        </h4>
+                        <strong>Kabupaten Brebes</strong>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="education-item">
+                        <div class="education-item-date">
+                          <div class="education-item-date-icon">
+                            <span data-uk-icon="calendar"></span>
+                          </div>
+                          <div class="education-item-date-text">
+                            <span>Lulus tahun 2016</span>
+                          </div>
+                        </div>
+                        <h4 class="section-title">SDIT Nurul Hidayah</h4>
+                        <strong>Kabupaten Brebes</strong>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end pendidikan section -->
+      <!-- jadwal kuliah section -->
+      <section class="section section-padding" id="kuliah">
+        <div class="section-point-wrapper">
+          <div class="uk-container">
+            <div class="section-point">
+              <!-- <sup>05</sup> -->
+              <span>Jadwal Kuliah</span>
+            </div>
+          </div>
+        </div>
+        <div class="uk-container">
+          <h2 class="section-title uk-heading-line">
+            <span>Jadwal Kuliah</span>
+          </h2>
+          <table
+            class="uk-table uk-table-responsive uk-table-divider uk-table-middle"
+          >
+            <thead>
+              <tr>
+                <th>Hari</th>
+                <th>Jam</th>
+                <th>Mata Kuliah</th>
+                <th>Ruang</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="3">Senin</td>
+                <td>08.40 - 10.20</td>
+                <td>Pemrograman Web I</td>
+                <td>D.5.1</td>
+              </tr>
+              <tr>
+                <td>10.20 - 12.00</td>
+                <td>Dasar Pemrograman</td>
+                <td>D.5.1</td>
+              </tr>
+              <tr>
+                <td>14.10 - 16.20</td>
+                <td>Pengantar Teknologi Informasi</td>
+                <td>KULINO</td>
+              </tr>
+              <tr>
+                <td rowspan="2">Selasa</td>
+                <td>07.00 - 08.40</td>
+                <td>Pengantar Desain Grafis</td>
+                <td>D.5.1</td>
+              </tr>
+              <tr>
+                <td>08.40 - 10.20</td>
+                <td>Algoritma & Struktur Data</td>
+                <td>D.5.1</td>
+              </tr>
+              <tr>
+                <td rowspan="3">Rabu</td>
+                <td>07.00 - 08.40</td>
+                <td>Dasar-Dasar Komputasi</td>
+                <td>D.3.M</td>
+              </tr>
+              <tr>
+                <td>08.40 - 10.20</td>
+                <td>Pengantar Sistem Operasi dan Jaringan Komputer</td>
+                <td>D.5.1</td>
+              </tr>
+              <tr>
+                <td>12.30 - 15.00</td>
+                <td>Logika Matematika</td>
+                <td>D.5.2</td>
+              </tr>
+              <tr>
+                <td rowspan="3">Kamis</td>
+                <td>08.40 - 10.20</td>
+                <td>Pengantar Sistem Operasi dan Jaringan Komputer</td>
+                <td>D.2.B</td>
+              </tr>
+              <tr>
+                <td>12.30 - 14.10</td>
+                <td rowspan="2">Dasar Pemrograman</td>
+                <td rowspan="2">D.5.1</td>
+              </tr>
+              <tr>
+                <td>14.10 - 16.20</td>
+              </tr>
+              <tr>
+                <td rowspan="4">Jumat</td>
+                <td>08.40 - 10.20</td>
+                <td>Bahasa Inggris</td>
+                <td>KULINO</td>
+              </tr>
+              <tr>
+                <td>10.20 - 12.00</td>
+                <td>Algoritma & Struktur Data</td>
+                <td>D.5.2</td>
+              </tr>
+              <tr>
+                <td>12.30 - 14.10</td>
+                <td rowspan="2">Dasar Pemrograman</td>
+                <td rowspan="2">D.5.1</td>
+              </tr>
+              <tr>
+                <td>14.10 - 16.20</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <!-- end jadwal kuliah section -->
+      <!-- Aktivitas section -->
+      <section class="section uk-overflow-hidden" id="aktivitas">
+        <div class="section-point-wrapper">
+          <div class="uk-container">
+            <div class="section-point">
+              <!-- <sup>04</sup> -->
+              <span>Aktivitas</span>
+            </div>
+          </div>
+        </div>
+        <div class="uk-container">
+          <div data-uk-grid class="uk-grid-divider">
+            <div class="uk-width-expand@s section-padding-top">
+              <div>
+                <h2 class="section-title uk-heading-line">
+                  <span>Aktivitas</span>
+                </h2>
+                <div data-uk-slider>
+                  <div class="margin-top-1 margin-bottom-2">
+                    <div data-uk-grid class="uk-grid-small">
+                      <div class="uk-width-expand">
+                        <div class="uk-slider-container">
+                          <ul
+                            class="slider-items uk-slider-items uk-child-width-1-1"
+                          >
+                            <li>
+                              <div class="activity-item">
+                                <div class="activity-item-desc">
+                                  <h4>Kemahasiswaan</h4>
+                                  Aktif di kegiatan kemahasiswaan.
+                                </div>
+                                <div class="activity-item-img">
+                                  <div
+                                    data-uk-grid
+                                    class="uk-flex-middle uk-grid-small"
+                                  >
+                                    <div>
+                                      <img
+                                        src="src/img/empty.png"
+                                        width="300"
+                                        height="300"
+                                        data-src="src/img/people/01.jpg"
+                                        alt=""
+                                        data-uk-img
+                                      />
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="activity-item">
+                                <div class="activity-item-desc">
+                                  <h4>Kemahasiswaan 2</h4>
+                                  Aktif di kegiatan kemahasiswaan 2.
+                                </div>
+                                <div class="activity-item-img">
+                                  <div
+                                    data-uk-grid
+                                    class="uk-flex-middle uk-grid-small"
+                                  >
+                                    <div>
+                                      <img
+                                        src="src/img/empty.png"
+                                        width="300"
+                                        height="300"
+                                        data-src="src/img/people/01.jpg"
+                                        alt=""
+                                        data-uk-img
+                                      />
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="uk-width-auto">
+                        <div class="activity-nav">
+                          <a href="#" data-uk-slider-item="next">
+                            <span data-uk-icon="arrow-right"></span>
+                          </a>
+                          <a href="#" data-uk-slider-item="previous">
+                            <span data-uk-icon="arrow-left"></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end aktivitas section -->
+    </main>
+    <!-- end main section -->
+    <!-- main footer -->
+    <footer class="main-footer-wrapper">
+      <div class="waveHorizontals">
+        <div
+          id="waveHorizontal1"
+          class="waveHorizontal"
+          data-uk-img
+          data-src="src/img/bg/wave1.svg"
+        ></div>
+        <div
+          id="waveHorizontal2"
+          class="waveHorizontal"
+          data-uk-img
+          data-src="src/img/bg/wave2.svg"
+        ></div>
+        <div
+          id="waveHorizontal3"
+          class="waveHorizontal"
+          data-uk-img
+          data-src="src/img/bg/wave3.svg"
+        ></div>
+      </div>
+      <a
+        href="#body-app"
+        class="uk-visible@s totop inner-link"
+        data-uk-totop
+      ></a>
+      <div class="main-footer">
+        <div class="uk-container">
+          <div data-uk-grid class="uk-child-width-1-2@s">
+            <div class="uk-margin-remove uk-text-left@s">
+              &copy; 2022 - Syifano Fazul Nabil
+            </div>
+            <div class="uk-margin-remove uk-text-right@s">
+              <div class="footer-social">
+                <a href="https://www.instagram.com/fazul_nabil/">Instagram</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end main footer -->
+
+    <!-- js -->
+    <script src="src/app/js/plugins.min.js"></script>
+    <script src="src/app/js/app.js"></script>
+  </body>
+</html>
